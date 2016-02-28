@@ -1,0 +1,10 @@
+digraph G {
+	rankdir=LR;
+	bluetooth [image="bluetooth.png", label="Bluetooth"]
+	bond [image="bond.png", label="bond"]
+	server [image="server.png", label="server"]
+	mobile [image="mobile.png", label="mobile"]
+
+	bond->bluetooth->mobile
+	mobile->server;
+}
